@@ -1,0 +1,136 @@
+header {
+    text-align: center;
+    font-size: 36px;
+    color: rgba( 34,  0,  0,1);
+    border: 2px solid rgba( 34,  0,  0,1);
+    min-width: 800px;
+    margin: 25px 450px;
+    background-color: rgba(180, 75, 75,1);
+}
+
+body {
+    position: absolute;
+    background-color: rgba(103, 13, 13,1);
+}
+
+h2 {
+    color: rgba( 34,  0,  0,1);
+    text-align: center;
+    border: 1px solid rgba( 34,  0,  0,1);
+    background-color: rgba(180, 75, 75,1);
+}
+
+h2.typeface-head {
+    width: 300px;
+    margin-left: 785px;
+    padding: 15px;
+}
+
+h2.typeface-examples {
+    width: 300px;
+    position: absolute;
+    margin-left: 170px;
+    padding: 15px;
+    margin-top: 23px;
+}
+
+h2.font-css {
+    width: 250px;
+    padding: 10px;
+    margin-left: 1410px;
+    margin-top: -110px;
+    position: absolute;
+}
+
+article {
+    border: 2px solid rgba( 34,  0,  0,1);
+    min-width: 1900px;
+    min-height: 600px;
+}
+
+hr.intro-bar {
+    width: 330px;
+    margin-left: 785px;
+    height: 5px;
+}
+
+hr.example-bar {
+    position: absolute;
+    width: 330px;
+    height: 5px;
+    margin-top: 115px;
+    margin-left:165px;
+}
+
+hr.css-bar {
+    width: 300px;
+    height: 5px;
+    position: absolute;
+    margin-left: 1390px;
+    margin-top: -18px;
+}
+
+hr {
+    background-color: rgba(180, 75, 75,1);
+    border: 2px solid rgba( 34,  0,  0,1);
+}
+
+p.typeface-intro {
+    width: 500px;
+    margin-left: 690px;
+    padding: 10px;
+}
+
+p.font-examples {
+    width: 600px;
+    position: absolute;
+    margin: 25px;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+p.test {
+    width: 600px;
+    margin-left: 1250px;
+    margin-top: -150px;
+    font-family: consolas,"Liberation Mono",courier,monospace;
+}
+
+p {
+    color: rgba( 34,  0,  0,1);
+    border: 2px solid rgba( 34,  0,  0,1);
+    background-color: rgba(180, 75, 75,1);
+    font-size: 18px;
+}
+
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cambria {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cursive {
+    font-family: Cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.strong-serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.strong-monospace {
+    font-family: monospace;
+}
+
+.strong-sans {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
