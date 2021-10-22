@@ -1,0 +1,117 @@
+/* Universal Styles */
+html {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* Parent Flexbox and Child Flexbox  */
+.flexbox {
+    width: 100%;
+    display: flex;
+}
+
+.left-flex {
+    flex-grow: 1;
+    padding-right: 30px;
+}
+
+.middle-flex {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.right-flex {
+    flex-grow: 1;
+}
+
+/* Left Flex Content*/
+
+.team-menu {
+    list-style-type: none;
+    text-align: center;
+}
+
+.team-logo {
+    padding-bottom: 30px;
+}
+
+.broncos,
+.nuggets,
+.avalance {
+    width: 100px;
+    height: 100px;
+}
+
+/* Middle Flex Content*/
+.header-img {
+    background-image: url(../img/denver-header.jpg);
+    width: 1394px;
+    height: 475px;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(193,133,23);
+}
+
+article {
+    background-color: rgb(151,192,222);
+    margin-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow: scroll;
+    width: 100%;
+    height: 1000px
+}
+
+.content-title {
+    text-align: center;
+    color: rgb(193,133,23);
+}
+
+.twitter-container {
+    margin-left: 85px;
+}
+
+/* Right Flex Content*/
+.main-menu {
+    list-style-type: none;
+}
+
+.menu-item {
+    background-color: grey;
+    color: white;
+    font-size: 24px;
+    line-height: 60px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+    width: 300px;
+    background-color: rgb(151,192,222);
+    color: rgb(193,133,23);
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px auto;
+    padding: 1px 0px 1px 0px;
+    border: 1px solid black;
+}
