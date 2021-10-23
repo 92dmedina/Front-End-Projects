@@ -1,0 +1,219 @@
+/*Universal Code */
+html {
+    background-color: white;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h1,
+li { 
+    font-family: 'Teko', sans-serif;
+}
+
+img {
+    border: 1px solid black;
+}
+
+/*Parent Flex and Child Header Code */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #C1C1C1;
+    border: 1px solid black;
+}
+
+.header-holder {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.leo-nav {
+    margin-right: 30px;
+}
+
+.main-menu {
+    list-style-type: none;
+    line-height: 100px;
+}
+
+.menu-item {
+    font-size: 3rem;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*Parent Flex and Child Main Code */
+.main-flex {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #C1C1C1;
+    border: 1px solid black;
+    align-items: center;
+}
+
+#card {
+    margin-top: 50px;
+    width: 80%;
+    background-color: #7f7f7f;
+}
+
+/* Welcome Card Code */
+.welcome-title {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 1.75rem;
+    text-align: center;
+    color: white;
+}
+
+/* Art Card Code */
+.art-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    height: 800px;
+}
+
+.art-title {
+    font-size: 3rem;
+    color: white;
+}
+
+.art-1 {
+    width: 650px;
+    height: 541px;
+}
+
+.art-2 {
+    width: 1024px;
+    height: 1024;
+    margin-top: 25px;
+}
+
+.art-3 {
+    width: 945px;
+    height: 714px;
+    margin-top: 25px;
+    border: none;
+}
+
+.art-4 {
+    width: 860px;
+    height: 980px;
+    margin-top: 25px;
+    border: none;
+}
+
+/* Clip Code */
+
+.clip-card {
+    margin-bottom: 15px;
+}
+
+.clip-title {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+/* Footer Code */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #C1C1C1;
+    height: 75px;
+    border: 1px solid black;
+}
+
+.footer-nav {
+    margin-top: 12px;
+    width: 250px;
+    height: 75px;
+}
+
+.footer-menu-item {
+    font-size: 1.5rem;
+    list-style-type: none;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer ul,
+.footer-menu li {
+    display: inline;
+    line-height: 50px;
+}
+
+/* Media Rules for Responsiveness */
+@media only screen and (max-width: 985px) {
+    .header-img {
+        width: 312px;
+        height: 199px;
+    }
+}
+
+@media only screen and (max-width: 1085px) {
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .menu-item {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    header {
+        flex-wrap: wrap-reverse;
+    }
+
+    ul li {
+        display: inline;
+    }
+
+    .left-holder {
+        display: none;
+    }
+
+    .header-img,
+    .leo-nav {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .art-1,
+    .art-2,
+    .art-3,
+    .art-4 {
+        width: 50%;
+        height: 50%;
+    }
+}
